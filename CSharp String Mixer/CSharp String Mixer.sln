@@ -5,6 +5,12 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp String Mixer", "CSharp String Mixer\CSharp String Mixer.csproj", "{90D0AABA-DF1A-4EA2-A5B3-57E96AB19C91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interactive String Mixer", "Interactive String Mixer\Interactive String Mixer.csproj", "{9B79C6D7-84FD-45D2-A1B8-7FF6F6018B68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringMixerUtils", "StringMixerUtils\StringMixerUtils.csproj", "{129F712B-2B6A-4282-AE10-5B82DE65E40E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringMixerTests", "StringMixerTests\StringMixerTests.csproj", "{D7879C0E-EF40-414B-9075-10D23D4A78B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{90D0AABA-DF1A-4EA2-A5B3-57E96AB19C91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90D0AABA-DF1A-4EA2-A5B3-57E96AB19C91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90D0AABA-DF1A-4EA2-A5B3-57E96AB19C91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B79C6D7-84FD-45D2-A1B8-7FF6F6018B68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B79C6D7-84FD-45D2-A1B8-7FF6F6018B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B79C6D7-84FD-45D2-A1B8-7FF6F6018B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B79C6D7-84FD-45D2-A1B8-7FF6F6018B68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{129F712B-2B6A-4282-AE10-5B82DE65E40E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{129F712B-2B6A-4282-AE10-5B82DE65E40E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{129F712B-2B6A-4282-AE10-5B82DE65E40E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{129F712B-2B6A-4282-AE10-5B82DE65E40E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7879C0E-EF40-414B-9075-10D23D4A78B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7879C0E-EF40-414B-9075-10D23D4A78B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7879C0E-EF40-414B-9075-10D23D4A78B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7879C0E-EF40-414B-9075-10D23D4A78B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
