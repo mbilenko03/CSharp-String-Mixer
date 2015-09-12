@@ -12,10 +12,11 @@ namespace CSharp_String_Mixer
         {
         string readTerm = Console.ReadLine(); 
         char[] useTerm = readTerm.ToCharArray();
-        Reverser(useTerm);       
+        Reverser(useTerm);
+        CaseSwitch(useTerm); 
         }
 
-    static void Reverser(char[] arrString)
+     static void Reverser(char[] arrString)
         {
           char[] reverseArray = new char[arrString.Length];
         
@@ -27,8 +28,42 @@ namespace CSharp_String_Mixer
             }
 
             string printReverse = new string(reverseArray);
-            Console.WriteLine(printReverse);           
+            Console.WriteLine("Reverse: " + printReverse);           
         }
+
+     static void CaseSwitch(char[] arrString)
+    {
+      char[] caseFlip = new char[arrString.Length];
+       char noCase = '?';
+       bool result = true;
+
+       for(int i = 0; i < arrString.Length; i++)
+       {
+         if (char.IsLower(arrString[i]))
+         {
+           caseFlip[i] = char.ToUpper(arrString[i]);
+         }
+         
+         else if (char.IsUpper(arrString[i]))
+         {
+           caseFlip[i] = char.ToLower(arrString[i]);
+         }
+
+         else
+         {
+           caseFlip[i] = noCase;
+           result = false; 
+         }
+       }
+       string printCaseFlip = new string(caseFlip);
+       Console.WriteLine("CaseFlip: " + printCaseFlip);
+       
+       if (result == false)
+       {
+         Console.WriteLine("There were some input values that could not switch case. They were replaced with ?.");
+       }
+
+    }
  
   }
 }
