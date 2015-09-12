@@ -6,3 +6,8 @@ So Far:
 1. String Reverser
 
 2. String Case Switch
+
+3. Randomizer
+ 
+4. Coming Soon!
+
