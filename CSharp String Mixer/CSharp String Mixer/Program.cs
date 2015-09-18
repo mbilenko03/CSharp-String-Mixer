@@ -12,14 +12,15 @@ namespace CSharp_String_Mixer
   {
     static void Main(string[] args) 
         {
-        string readTerm = Console.ReadLine(); 
-        char[] useTerm = readTerm.ToCharArray();
-        string result = StringReverser.Reverse(useTerm);
-        Console.WriteLine("Reversed string: " + result);
-        result = CaseSwitcher.CaseSwitch(useTerm);
-        Console.WriteLine("Cases switch: " + result);
-        result = Randomizer.Randomize(useTerm);
-        Console.WriteLine("Randomizer: " + result);
+         string readTerm = Console.ReadLine();
+         char[] useTerm = readTerm.ToCharArray();
+         string result = StringReverser.Reverse(useTerm);
+         Console.WriteLine("Reversed string: " + result);
+         result = CaseSwitcher.CaseSwitch(useTerm);
+         Console.WriteLine("Cases switch: " + result);
+         result = Randomizer.Randomize(useTerm);
+         Console.WriteLine("Randomizer: " + result);
+        
         }
   }
 }
